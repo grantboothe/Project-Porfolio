@@ -7,31 +7,67 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ForBootstrap.css" rel="stylesheet">
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <style>
-        div{
-            background-color: blue;
-            border: 1px solid black;
-        }
-    </style>
 </head>
 <body>
-
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-                <div class="col-sm-4">.col-sm-4</div>
-        <div class="col-sm-4 col-sm-offset-4">.col-sm-4 .col-sm-offset-4</div>
+        <div class="col-xs-12"><h1>Bootstrap Makes It Easy</h1></div>
+</div>
+    <div class="row">
+    <div class="col-sm-4">Column One</div>
+    <div class="col-sm-4">Column Two</div>
+    <div class="col-sm-4">Column Three</div>
     </div>
 
-<div class="row">
-<div class="col-sm-3 col-sm-offset-3">.col-sm-3 .col-sm-offset-3</div>
-<div class="col-sm-3 col-sm-offset-3">.col-sm-3 .col-sm-offset-3</div>
+    <div class="row">
+        <div class="col-xs-4">Apple</div>
+        <div class="col-xs-4">Banana</div>
+        <div class="col-xs-4">Orange</div>
+        </div>
+    </div>
+<style>
+    body{
+        background-color: lightblue;
+    }
+    @media only screen and (min-width: 500px){
+        body{
+            background-color: lightcoral;
+        }
+    }
+
+    @media only screen and (min-width: 600 px)  {
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+    }
+  @media only screen and (min-width: 700px){
+      body{
+          background-color: lightgray;
+      }
+  }
+</style>
+<div class="container">
+    <div>
+        <div class="jumbotron">
+           <h1>Hello world!</h1>
+           <form class="form-inline">
+               <div class="form-group">
+                   <label for="username" class="control-label col-sm-2" >Name</label>
+                   <div class="col-sm-10">
+                   <input id="username" type="text" placeholder="enter your name">
+                   </div>
+               </div>
+               </div>
+               <div>
+               </div>
+               <button type="button">Submit</button>
+        </div>
+           </form>
     </div>
 
-<div class="col-sm-6 col-sm-offset-3">.col-sm-6 .col-sm-offset-3</div>
-<div class="row">
-<div class="col-sm-6 col-sm-offset-3">.col-sm-6 .col-sm-offset-3</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
