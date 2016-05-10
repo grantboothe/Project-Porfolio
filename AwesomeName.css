@@ -1,0 +1,73 @@
+body {
+    position: relative;
+    background-image: url("http://www.ambient-mixer.com/images_template/a/a/e/aae61d7b9bd57b9e4b4d1d198dd9cd76_full.jpg");
+    background-size: 1000px 1000px;
+    margin: 0;
+}
+
+#header{
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.DaList li{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    padding-right: 230px;
+    padding-left: 230px;
+}
+
+#ProvoC{
+    position: relative;top: 200px;
+}
+
+#BYU {
+    float: right;
+}
+
+#Eagle{
+    float: right;
+    position: relative;top: 90px;
+}
+
+#Nav li a{
+    text-align: center;
+    font-size: 40px;
+    background-image: url("http://images.freecreatives.com/wp-content/uploads/2015/10/cool-orange-backgrounds.jpg");
+    color:purple;
+    font-family: "Times New Roman";
+    display: inline-block;
+}
+
+#Resume {
+    background-image: url("http://www.on.kz/userdata/15832/user_photos/full/1108/a11f5ee898e2fa749145b99b52f1a986.jpg");
+    color: yellow;
+    font-size: 50px;
+    overflow: hidden;
+}
+
+#AboutMe {
+    background-image: url("https://sidneycarr1289.files.wordpress.com/2011/01/new-stuff.jpg");
+    font-size: 40px;
+    height: 300px;
+    color: white;
+    overflow: hidden;
+}
+
+
+#BeforeFooter {
+    font-size: 40px;
+    text-align: center;
+}
+
+#contact{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button{
+    color: black;
+}
